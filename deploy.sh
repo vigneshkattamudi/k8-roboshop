@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-kubectl apply -f 01-namespace
+kubectl apply -f 01-namespace.yaml
 
 kubectl apply -f mongodb
 kubectl apply -f mysql
