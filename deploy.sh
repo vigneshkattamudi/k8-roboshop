@@ -16,3 +16,7 @@ kubectl apply -f payment
 kubectl apply -f frontend
 
 kubectl apply -f debug
+
+#chmod +x deploy.sh
+#./deploy.sh
+#kubectl apply -f .
